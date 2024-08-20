@@ -13,7 +13,9 @@
   display: block;
   padding: 15px 30px;
   border-bottom: 4px solid transparent;
-  font-size: 1.4em;
+  font-size: var(--navigation-font-size);
+  letter-spacing: 1px;
+
   border: none;
   outline: none;
   background-color: transparent;
