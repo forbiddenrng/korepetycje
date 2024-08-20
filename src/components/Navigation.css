@@ -33,11 +33,10 @@
   transform: scaleX(0);
 }
 .navigation button.active::before{
-  display: none;
+  transform: scaleX(1);
+  background-color: var(--background-color);
 }
-.navigation button.active{
-  border-bottom: 3px solid var(--background-color);
-}
+
 
 
 .navigation button:hover::before{
