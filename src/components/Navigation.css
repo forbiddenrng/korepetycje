@@ -1,0 +1,44 @@
+.navigation nav{
+  margin-top: 25px;
+}
+.navigation ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.navigation button{
+  position: relative;
+  display: block;
+  padding: 15px 30px;
+  border-bottom: 4px solid transparent;
+  font-size: 1.4em;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.navigation button::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: var(--font-color);
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+}
+.navigation button.active::before{
+  display: none;
+}
+.navigation button.active{
+  border-bottom: 3px solid var(--background-color);
+}
+
+
+.navigation button:hover::before{
+  transform: scaleX(1);
+}
+

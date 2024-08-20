@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --background-color: #42b883;
+  --font-color: #35496e;
+  --header-font-size: 2.5rem;
+  --navigation-font-size: 1.4rem;
+}
+
+body{
+  background-color: var(--background-color);
+  font-family: 'arial', sans-serif;
+}
