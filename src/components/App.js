@@ -3,7 +3,7 @@ import "./App.css"
 
 import Navigation from "./Navigation"
 import AboutMe from "./AboutMe"
-import Information from "./Experience"
+import Information from "./Information"
 import Contact from "./Contact"
 
 class App extends Component {
