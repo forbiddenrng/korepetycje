@@ -9,7 +9,7 @@ const AboutMe = () => {
         <div className="image">
           <img src={image} alt="ja" />
         </div>
-        <h3>O mnie</h3>
+        <h3>Antoni Gawron</h3>
       </header>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero animi

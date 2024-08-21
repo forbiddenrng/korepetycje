@@ -1,10 +1,10 @@
 import React from "react"
 import "./Main.css"
 
-const Experience = () => {
+const Information = () => {
   return (
-    <div className="about">
-      <h3>Doświadczenie</h3>
+    <div className="info">
+      <h3>O lekcjach</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero animi
         libero, quia iste dolorum ipsam cupiditate voluptate ducimus ipsum unde
@@ -15,4 +15,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Information

@@ -3,7 +3,7 @@ import "./App.css"
 
 import Navigation from "./Navigation"
 import AboutMe from "./AboutMe"
-import Experience from "./Experience"
+import Information from "./Experience"
 import Contact from "./Contact"
 
 class App extends Component {
@@ -20,7 +20,7 @@ class App extends Component {
   getContent = () => {
     const id = this.state.activeSectionID
     if (id === 0) return <AboutMe />
-    else if (id === 1) return <Experience />
+    else if (id === 1) return <Information />
     else if (id === 2) return <Contact />
   }
 

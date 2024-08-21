@@ -19,7 +19,7 @@ const Navigation = props => {
             onClick={() => props.click(1)}
             className={id === 1 ? "active" : ""}
           >
-            Doświadczenie
+            Informacje
           </button>
         </li>
         <li>
