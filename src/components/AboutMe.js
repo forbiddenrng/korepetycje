@@ -1,14 +1,14 @@
 import React from "react"
 import "./Main.css"
-import image from "../image/image.png"
+//import image from "../image/image.png"
 
 const AboutMe = () => {
   return (
     <div className="about">
       <header>
-        <div className="image">
+        {/* <div className="image">
           <img src={image} alt="ja" />
-        </div>
+        </div> */}
         <h3>Antoni Gawron</h3>
       </header>
       <p>
