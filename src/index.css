@@ -6,10 +6,11 @@
 :root{
   --background-color: #42b883;
   --font-color: #35496e;
-  --header-font-size: 2.5rem;
+  --header-font-size: 3rem;
   --navigation-font-size: 1.4rem;
   --main-header-font-size: 1.6rem;
   --main-paragraph-font-size: 1.2rem;
+  --icon-color: #4bc599
 
 }
 

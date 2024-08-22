@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import "./Main.css"
+import "./Contact.css"
 import image from "../image/image.png"
 
 class Contact extends Component {

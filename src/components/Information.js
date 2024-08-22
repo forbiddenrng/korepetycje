@@ -34,9 +34,28 @@ const Information = () => {
         </div>
       </div>
       <div className="right">
-        <div className="price"></div>
-        <div className="scope"></div>
-        <div className="place"></div>
+        <div className="price">
+          <span>
+            <span>50zł</span>/60min
+          </span>
+        </div>
+        <div className="scope">
+          <p>
+            <i class="fa-solid fa-school"></i>Zakres lekcji:
+          </p>
+          <ul>
+            <li>Szkoła podstawowa</li>
+            <li>Szkoła średnia</li>
+          </ul>
+        </div>
+        <div className="place">
+          <p>
+            <i class="fa-solid fa-location-dot"></i>Miejsce lekcji:
+          </p>
+          <ul>
+            <li>Online</li>
+          </ul>
+        </div>
       </div>
     </div>
   )
