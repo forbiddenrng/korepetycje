@@ -3,8 +3,11 @@
   justify-content: center;
   align-items: center;
   height: 100dvh;
-
 }
+#particles canvas{
+  z-index: -1;
+}
+
 .app .container{
   background-color: #ded;
   width: 900px;

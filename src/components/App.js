@@ -6,6 +6,8 @@ import AboutMe from "./AboutMe"
 import Information from "./Information"
 import Contact from "./Contact"
 
+import ParticlesComponent from "./particles"
+
 class App extends Component {
   state = {
     activeSectionID: 0,
@@ -27,6 +29,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        <ParticlesComponent id="particles" />
         <div className="container">
           <h1>Korepetycje matematyka</h1>
           <div className="navigation">
