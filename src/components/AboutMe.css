@@ -11,3 +11,16 @@ section.main .about h3{
 .important{
   font-weight: bold;
 }
+
+@media (width <= 1366px){
+
+  section.main .about h3{
+    padding: 15px 30px;
+  }
+}
+@media (width <= 460px){
+  .about header{
+    margin-top: 10px;;
+  }
+}
+

@@ -139,3 +139,21 @@
 
 }
 
+@media (width <= 860px){
+  .contact .image img{
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (width <= 460px){
+  .contact .image img{
+    display: none;
+  }
+  section.main h3{
+    margin-top: 10px;
+  }
+  .contact-wrapper{
+    flex-direction: column-reverse;
+  }
+}

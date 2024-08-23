@@ -43,3 +43,12 @@
   transform: scaleX(1);
 }
 
+@media (width <= 460px){
+  .navigation button{
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+  }
+  .navigation button::before{
+    height: 2px;
+  }
+}

@@ -18,3 +18,37 @@ body{
   background-color: var(--background-color);
   font-family: "Roboto", "arial", sans-serif
 }
+
+@media (width <= 1366px){
+  :root{
+    --header-font-size: 2.5rem;
+    --navigation-font-size: 1.3rem;
+    --main-header-font-size: 1.5rem;
+    --main-paragraph-font-size: 1.1rem;
+  }
+}
+
+
+@media (width <= 1280px){
+  :root{
+    --header-font-size: 2.4rem;
+    --navigation-font-size: 1.2rem;
+    --main-header-font-size: 1.4rem;
+    --main-paragraph-font-size: 1rem;
+  }
+}
+
+@media (width <= 860px){
+  :root{
+    --main-paragraph-font-size: 0.9rem;
+  }
+}
+
+@media (width <=460px){
+  :root{
+    --header-font-size: 1.8rem;
+    --navigation-font-size: 1rem;
+    --main-header-font-size: 1.4rem;
+    --main-paragraph-font-size: 0.8rem;
+  }
+}

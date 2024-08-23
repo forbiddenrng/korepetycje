@@ -71,3 +71,23 @@
   color: var(--icon-color)
 }
 
+@media (width <= 860px){
+
+  .calendar{
+    min-width: 300px;
+  }
+  .calendar .day span:nth-child(1){
+    flex-basis: 40%;
+  }
+}
+
+@media (width <=460px){
+  .info{
+    flex-direction: column;
+    padding: 20px;
+  }
+  .calendar{
+    font-size: 0.8rem;
+    margin-bottom: 5px;;
+  }
+}
