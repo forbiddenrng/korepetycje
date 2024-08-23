@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/korepetycje/static/css/main.e350e8de.css",
+    "main.js": "/korepetycje/static/js/main.557d9a13.js",
+    "static/media/image.png": "/korepetycje/static/media/image.df56bb6ae5a47b9a5682.png",
+    "index.html": "/korepetycje/index.html",
+    "main.e350e8de.css.map": "/korepetycje/static/css/main.e350e8de.css.map",
+    "main.557d9a13.js.map": "/korepetycje/static/js/main.557d9a13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e350e8de.css",
+    "static/js/main.557d9a13.js"
+  ]
+}
