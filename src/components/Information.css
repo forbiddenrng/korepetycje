@@ -90,4 +90,8 @@
     font-size: 0.8rem;
     margin-bottom: 5px;;
   }
+  .info .right{
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+  }
 }

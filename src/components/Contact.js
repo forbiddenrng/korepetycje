@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import "./Contact.css"
-import image from "../image/image.png"
+import image from "../image/image.jpg"
 
 class Contact extends Component {
   state = {
